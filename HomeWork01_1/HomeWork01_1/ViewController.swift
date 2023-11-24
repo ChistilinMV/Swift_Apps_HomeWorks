@@ -61,7 +61,7 @@ class ViewController: UIViewController {
         setupUI()
     }
     
-    func assignbackground(){
+    private func assignbackground(){
             let background = UIImage(named: "coffe_wall")
 
             var bgImageView : UIImageView!
